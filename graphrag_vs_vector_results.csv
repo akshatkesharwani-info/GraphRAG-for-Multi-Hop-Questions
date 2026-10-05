@@ -1,0 +1,41 @@
+hops,question,gold,method,answer,correct,context_words,llm_calls,hops_used
+1,What does Nimbus Labs build?,warehouse robots,vector (top 3),warehouse robots for retailers.,True,23,1,0
+1,What does Nimbus Labs build?,warehouse robots,all passages in prompt,warehouse robots.,True,143,1,0
+1,What does Nimbus Labs build?,warehouse robots,"graph (3 hops, fixed)",warehouse robots,True,81,1,3
+1,What does Nimbus Labs build?,warehouse robots,graph (adaptive hops),warehouse robots,True,24,1,1
+1,Who founded GreenGrid?,Sunita Patel,vector (top 3),sunita patel,True,30,1,0
+1,Who founded GreenGrid?,Sunita Patel,all passages in prompt,sunita patel,True,143,1,0
+1,Who founded GreenGrid?,Sunita Patel,"graph (3 hops, fixed)",sunita patel,True,73,1,3
+1,Who founded GreenGrid?,Sunita Patel,graph (adaptive hops),sunita patel,True,15,1,1
+1,Which city is Helix Motors based in?,Chennai,vector (top 3),chennai.,True,34,1,0
+1,Which city is Helix Motors based in?,Chennai,all passages in prompt,chennai,True,143,1,0
+1,Which city is Helix Motors based in?,Chennai,"graph (3 hops, fixed)",chennai,True,81,1,3
+1,Which city is Helix Motors based in?,Chennai,graph (adaptive hops),chennai,True,18,1,1
+2,Who is the CEO of the company that acquired Nimbus Labs?,Vikram Rao,vector (top 3),not mentioned.,False,23,1,0
+2,Who is the CEO of the company that acquired Nimbus Labs?,Vikram Rao,all passages in prompt,vikram rao,True,143,1,0
+2,Who is the CEO of the company that acquired Nimbus Labs?,Vikram Rao,"graph (3 hops, fixed)",vikram rao,True,81,1,3
+2,Who is the CEO of the company that acquired Nimbus Labs?,Vikram Rao,graph (adaptive hops),vikram rao,True,64,2,2
+2,Who is the CEO of the company that GreenGrid supplies solar panels to?,Arjun Mehta,vector (top 3),unknown,False,30,1,0
+2,Who is the CEO of the company that GreenGrid supplies solar panels to?,Arjun Mehta,all passages in prompt,arjun mehta,True,143,1,0
+2,Who is the CEO of the company that GreenGrid supplies solar panels to?,Arjun Mehta,"graph (3 hops, fixed)",arjun mehta,True,73,1,3
+2,Who is the CEO of the company that GreenGrid supplies solar panels to?,Arjun Mehta,graph (adaptive hops),arjun mehta,True,39,2,2
+2,In which city is the company whose board Riya Sharma joined headquartered?,Jaipur,vector (top 3),unknown,False,34,1,0
+2,In which city is the company whose board Riya Sharma joined headquartered?,Jaipur,all passages in prompt,jaipur,True,143,1,0
+2,In which city is the company whose board Riya Sharma joined headquartered?,Jaipur,"graph (3 hops, fixed)",jaipur,True,81,1,3
+2,In which city is the company whose board Riya Sharma joined headquartered?,Jaipur,graph (adaptive hops),jaipur,True,39,2,2
+3,In which city is the company that acquired the startup founded by Riya Sharma headquartered?,Pune,vector (top 3),jaipur,False,32,1,0
+3,In which city is the company that acquired the startup founded by Riya Sharma headquartered?,Pune,all passages in prompt,pune.,True,143,1,0
+3,In which city is the company that acquired the startup founded by Riya Sharma headquartered?,Pune,"graph (3 hops, fixed)",pune,True,81,1,3
+3,In which city is the company that acquired the startup founded by Riya Sharma headquartered?,Pune,graph (adaptive hops),pune,True,81,3,3
+3,Which college did the CEO of the company that acquired Nimbus Labs attend?,IIT Indore,vector (top 3),unknown,False,23,1,0
+3,Which college did the CEO of the company that acquired Nimbus Labs attend?,IIT Indore,all passages in prompt,iit indore,True,143,1,0
+3,Which college did the CEO of the company that acquired Nimbus Labs attend?,IIT Indore,"graph (3 hops, fixed)",iit indore,True,81,1,3
+3,Which college did the CEO of the company that acquired Nimbus Labs attend?,IIT Indore,graph (adaptive hops),iit indore,True,81,3,3
+3,Where is the company that the CEO of Helix Motors previously worked for headquartered?,Pune,vector (top 3),unknown,False,34,1,0
+3,Where is the company that the CEO of Helix Motors previously worked for headquartered?,Pune,all passages in prompt,pune.,True,143,1,0
+3,Where is the company that the CEO of Helix Motors previously worked for headquartered?,Pune,"graph (3 hops, fixed)",pune,True,81,1,3
+3,Where is the company that the CEO of Helix Motors previously worked for headquartered?,Pune,graph (adaptive hops),pune,True,81,3,3
+3,Which college did the founder of the company that supplies solar panels to Helix Motors attend?,IIT Indore,vector (top 3),information not provided.,False,34,1,0
+3,Which college did the founder of the company that supplies solar panels to Helix Motors attend?,IIT Indore,all passages in prompt,iit indore,True,143,1,0
+3,Which college did the founder of the company that supplies solar panels to Helix Motors attend?,IIT Indore,"graph (3 hops, fixed)",iit indore,True,81,1,3
+3,Which college did the founder of the company that supplies solar panels to Helix Motors attend?,IIT Indore,graph (adaptive hops),iit indore,True,81,3,3

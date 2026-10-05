@@ -1,0 +1,21 @@
+subject,relation,object,passage
+Riya Sharma,founded,Nimbus Labs,0
+Nimbus Labs,based_in,Bhopal,0
+Nimbus Labs,builds,warehouse robots,1
+Orion Systems,acquired,Nimbus Labs,2
+Orion Systems,headquartered_in,Pune,3
+Orion Systems,ceo,Vikram Rao,3
+Vikram Rao,studied_at,IIT Indore,4
+Vikram Rao,works_at,Orion Systems,4
+Riya Sharma,board_member_of,GreenGrid,5
+GreenGrid,supplies,Helix Motors,6
+Helix Motors,headquartered_in,Chennai,7
+Helix Motors,ceo,Arjun Mehta,7
+Arjun Mehta,previously_worked_at,Orion Systems,8
+Helix Motors,partnered_with,Nimbus Labs,9
+GreenGrid,founded_by,Sunita Patel,10
+GreenGrid,headquartered_in,Jaipur,10
+Sunita Patel,studied_at,IIT Indore,11
+Zephyr Analytics,headquartered_in,Hyderabad,12
+Zephyr Analytics,ceo,Meena Iyer,12
+Orion Systems,based_in,Bengaluru,13
